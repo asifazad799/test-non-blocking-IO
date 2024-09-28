@@ -1,8 +1,8 @@
 const modulesRouter = require('express').Router();
 
-const { blockMainThread, nonBlockMainThread } = require('./modules')
+const { blockMainThread, test } = require('./modules')
 
-modulesRouter.use( '/', blockMainThread );
-modulesRouter.use( '/', nonBlockMainThread )
+modulesRouter.use('/', blockMainThread);
+modulesRouter.use('/', test)
 
 module.exports = modulesRouter

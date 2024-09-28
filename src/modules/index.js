@@ -1,7 +1,7 @@
 const blockMainThread = require('./block-main-thread')
-const nonBlockMainThread = require('./non-blocking-main-thread')
+const test = require('./test')
 
 module.exports = {
     blockMainThread,
-    nonBlockMainThread
+    test
 }

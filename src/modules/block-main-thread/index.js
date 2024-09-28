@@ -1,6 +1,6 @@
 const blockMainThread = require('express').Router();
-const { block } =  require('./controllers');
 
+const { block } =  require('./controllers');
 
 blockMainThread.get('/block',block);
 
